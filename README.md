@@ -51,12 +51,12 @@ PASSWORD_RESET_EXPIRES_IN=1h
 WS_TICKET_TTL=60
 CORS_ORIGINS=http://localhost:3000,http://localhost:4200
 
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=alerta.sql@ticsa.mx
-EMAIL_PASS=letooykqwpcqkkrx
-EMAIL_FROM=alerta.sql@ticsa.mx
-APP_URL=http://localhost:4200
+EMAIL_HOST=
+EMAIL_PORT=
+EMAIL_USER=
+EMAIL_PASS=
+EMAIL_FROM=
+APP_URL=
 ```
 
 ## Ejecución del proyecto
