@@ -1,0 +1,27 @@
+# Dependencias y compilación local
+node_modules
+dist
+.pnpm-store
+
+# Control de versiones
+.git
+.gitignore
+
+# Documentación y notas
+*.md
+planes
+
+# Archivos de configuración locales / secretos (¡Muy importante con TypeORM!)
+.env
+.env.*
+!.env.example
+.editorconfig
+.prettierrc
+.eslintrc.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

@@ -1,0 +1,25 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg18
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: pruebas
+      POSTGRES_USER: desarrollo
+      POSTGRES_PASSWORD: desarrollo
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  app:
+    image: ERP
+    container_name: ERP
+    restart: always
+    env_file: .env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+volumes:
+  pgdata:
