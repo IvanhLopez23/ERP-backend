@@ -19,7 +19,7 @@ Backend desarrollado con NestJS y TypeScript.
 Clonar el repositorio:
 
 ```bash
-git clone <http://192.168.1.7/backend/nestjstypeorm.git>
+git clone <https://github.com/IvanhLopez23/ERP-backend.git>
 cd <Backend>
 ```
 
