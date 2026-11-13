@@ -38,7 +38,7 @@ Ejemplo:
 ```env
 PORT=9000
 
-DB_NAME=auratest
+DB_NAME=test
 DB_USERNAME=desarrollo
 DB_PASSWORD=desarrollo
 DB_HOST=localhost
@@ -228,7 +228,7 @@ docker compose up -d
 ```env
 PORT= 3000
 
-DB_NAME=auratest
+DB_NAME=test
 DB_USERNAME=desarrollo
 DB_PASSWORD=desarrollo
 DB_HOST=postgres
